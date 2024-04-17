@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Loew Next Arabic";
+    src: url(../fonts/Loew\ Next\ Arabic.otf), format("opentype");
+
+}
+
+@font-face {
+    font-family: "Loew Next Arabic meduim";
+    src: url(../fonts/Loew\ Next\ Arabic\ Medium.otf), format("opentype");
+
+}
+
+@font-face {
+    font-family: "Loew Next Arabic bold";
+    src: url(../fonts/Loew\ Next\ Arabic\ Bold.otf), format("opentype");
+
+}
+
+@font-face {
+    font-family: "Loew Next Arabic extraBold";
+    src: url(../fonts/Loew\ Next\ Arabic\ ExtraBold.otf), format("opentype");
+
+}
+
+@font-face {
+    font-family: "Loew Next Arabic black";
+    src: url(../fonts/Loew\ Next\ Arabic\ Black.otf), format("opentype");
+
+}
+
+@font-face {
+    font-family: "Loew Next Arabic heavy";
+    src: url(../fonts/Loew\ Next\ Arabic\ Heavy.otf), format("opentype");
+
+}
