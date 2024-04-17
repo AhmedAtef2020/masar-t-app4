@@ -8,7 +8,7 @@ function Header() {
     <header className="navbar navbar-expand pt-0 pb-0 bg-light-gray">
       <div className="container">
         <Link to="/">
-          <img className="logo-header" src="./images/masar-logo-header.png" />
+          <img className="logo-header" src="./images/masar-logo-header.png" alt="Masar logo" />
         </Link>
         <NavItems />
         <Search />
