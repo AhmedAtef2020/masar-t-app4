@@ -6,7 +6,7 @@ const ServiceData = [
         btnLink: "servBooks",
         imgSrc: "./images/servBooks-img.jpg",
         imgAlt: "Books services",
-        icon: "../images/ico-books.png",
+        icon: "./images/ico-books.png",
     },
     {
         title: "المواقع والتطبيقات",
@@ -15,7 +15,7 @@ const ServiceData = [
         btnLink: "servWeb",
         imgSrc: "./images/servWeb-img.jpg",
         imgAlt: "Web Applications services",
-        icon: "../images/ico-web.png",
+        icon: "./images/ico-web.png",
     },
     {
         title: "سوشيال ميديا",
@@ -24,7 +24,7 @@ const ServiceData = [
         btnLink: "servSocial",
         imgSrc: "./images/servSocial-img.jpg",
         imgAlt: "Social media services",
-        icon: "../images/ico-social.png",
+        icon: "./images/ico-social.png",
     },
     {
         title: "الهوية البصرية",
@@ -33,7 +33,7 @@ const ServiceData = [
         btnLink: "servIdentity",
         imgSrc: "./images/servIdentity-img.jpg",
         imgAlt: "Identity Services",
-        icon: "../images/ico-identity.png",
+        icon: "./images/ico-identity.png",
     },
     {
         title: "باكج دعائي",
@@ -42,7 +42,7 @@ const ServiceData = [
         btnLink: "servAdv",
         imgSrc: "./images/servAdv-img.jpg",
         imgAlt: "Advertise Services",
-        icon: "../images/ico-adv.png",
+        icon: "./images/ico-adv.png",
     },
     {
         title: "التغليف والعلب",
@@ -51,7 +51,7 @@ const ServiceData = [
         btnLink: "servPackage",
         imgSrc: "./images/servPackage-img.jpg",
         imgAlt: "Packaging Services",
-        icon: "../images/ico-package.png",
+        icon: "./images/ico-package.png",
     },
     {
         title: "لافتات دعائية",
@@ -60,7 +60,7 @@ const ServiceData = [
         btnLink: "servBanner",
         imgSrc: "./images/servBanner-img.jpg",
         imgAlt: "Banners Services",
-        icon: "../images/ico-banners.png",
+        icon: "./images/ico-banners.png",
     },
     {
         title: "التصوير",
@@ -69,7 +69,7 @@ const ServiceData = [
         btnLink: "servPhoto",
         imgSrc: "./images/servPhoto-img.jpg",
         imgAlt: "Photography Services",
-        icon: "../images/ico-photo.png",
+        icon: "./images/ico-photo.png",
     },
     {
         title: "تنظيم معارض",
@@ -78,7 +78,7 @@ const ServiceData = [
         btnLink: "servShows",
         imgSrc: "./images/servShows-img.jpg",
         imgAlt: "Shows Services",
-        icon: "../images/ico-shows.png",
+        icon: "./images/ico-shows.png",
     },
     {
         title: "البروفايل",
@@ -87,7 +87,7 @@ const ServiceData = [
         btnLink: "servProfile",
         imgSrc: "./images/servProfile-img.jpg",
         imgAlt: "Profile Services",
-        icon: "../images/ico-profile.png",
+        icon: "./images/ico-profile.png",
     },
     {
         title: "مكتبة مسار",
@@ -96,7 +96,7 @@ const ServiceData = [
         btnLink: "servLib",
         imgSrc: "./images/servLib-img.jpg",
         imgAlt: "Liberary Services",
-        icon: "../images/ico-lib.png",
+        icon: "./images/ico-lib.png",
     },
 ]
 

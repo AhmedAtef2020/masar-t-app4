@@ -8,7 +8,7 @@ function Footer() {
         <SocialLinks />
         <ServiesLinks />
         <GeneralLinks />
-        <img src="../images/masar-logo-footer.png" alt="Logo-Masar" className="logo-footer " />
+        <img src="./images/masar-logo-footer.png" alt="Logo-Masar" className="logo-footer " />
       </div>
       <div className="copy-rights text-center mt-4 pt-2 ">
         جميع الحقوق محفوظة لمسار التميز © {copyDate}

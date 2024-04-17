@@ -1,7 +1,7 @@
 const BooksData = [
     {
         title: "الخوارزمية بلغة بايثون",
-        img: "../images/BookSample-2.jpg",
+        img: "./images/BookSample-2.jpg",
         imgAlt: "Khawarezmiya",
         addDate: "15 Apr. 2024",
         price: "200",
@@ -16,7 +16,7 @@ const BooksData = [
     },
     {
         title: "Characters Princibles",
-        img: "../images/Book-Characters.jpg",
+        img: "./images/Book-Characters.jpg",
         imgAlt: "Characters Princibles",
         addDate: "15 Apr. 2024",
         price: "200",
@@ -31,7 +31,7 @@ const BooksData = [
     },
     {
         title: "E-Menus",
-        img: "../images/Book-eMenus.jpg",
+        img: "./images/Book-eMenus.jpg",
         imgAlt: "food menus",
         addDate: "15 Apr. 2024",
         price: "200",
@@ -46,7 +46,7 @@ const BooksData = [
     },
     {
         title: "مذكرة المدرسة",
-        img: "../images/Book-Madrasha.jpg",
+        img: "./images/Book-Madrasha.jpg",
         imgAlt: "Khawarezmiya",
         addDate: "15 Apr. 2024",
         price: "200",
@@ -61,7 +61,7 @@ const BooksData = [
     },
     {
         title: "محمد رسول الله",
-        img: "../images/Book-Mohammed-1.jpg",
+        img: "./images/Book-Mohammed-1.jpg",
         imgAlt: "Mohammed",
         addDate: "15 Apr. 2024",
         price: "200",
@@ -76,7 +76,7 @@ const BooksData = [
     },
     {
         title: "البدور النيرات",
-        img: "../images/Book-Albudor.jpg",
+        img: "./images/Book-Albudor.jpg",
         imgAlt: "Albudor",
         addDate: "15 Apr. 2024",
         price: "200",
@@ -91,7 +91,7 @@ const BooksData = [
     },
     {
         title: "Freedom",
-        img: "../images/Book-Freedom.jpg",
+        img: "./images/Book-Freedom.jpg",
         imgAlt: "Freedom",
         addDate: "15 Apr. 2024",
         price: "200",
