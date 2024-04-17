@@ -1,6 +1,7 @@
 {
-  "name": "masar-t-app3",
-  "version": "0.1.0",
+  "homepage": "http://ahmedatef2020.github.io/masar-t-app4",
+  "name": "masar-t-app4",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
@@ -20,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
