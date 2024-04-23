@@ -27,6 +27,8 @@ function SamplePrevArrow(props) {
 
 export default function BooksSlider() {
     const settings = {
+        className: "center",
+        centerPadding: "60px",
         dots: true,
         infinite: true,
         speed: 3000,
@@ -34,6 +36,7 @@ export default function BooksSlider() {
         slidesToShow: 5,
         slidesToScroll: 2,
         initialSlide: 0,
+        swipeToSlide: true,
         rtl: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
@@ -58,6 +61,9 @@ export default function BooksSlider() {
             {
                 breakpoint: 480,
                 settings: {
+                    autoplay: false,
+                    nextArrow: null,
+                    prevArrow: null,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
@@ -74,7 +80,7 @@ export default function BooksSlider() {
                             to={book.link}>
                             <img key={index}
                                 src={book.img}
-                                className="m-auto w-75 d-block rounded-2"
+                                className="m-auto w-50 w-md-75 d-block rounded-2"
                                 alt={book.imgAlt}
                             />
                             <div className="book-title w-75 m-auto py-1 px-2">

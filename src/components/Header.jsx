@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
 import NavItems from "../components/NavItems"
-import Search from "../components/Search"
-import Account from "../components/Account";
+
 
 function Header() {
   return (
-    <header className="navbar navbar-expand pt-0 pb-0 bg-light-gray">
-      <div className="container">
-        <Link to="/">
-          <img className="logo-header" src="./images/masar-logo-header.png" alt="Masar logo" />
+    <header className="py-0 bg-light-gray">
+      <div className="container-md d-flex">
+        <Link to="/" className="col-2">
+          <img className="logo-header my-2" src="./images/masar-logo-header.png" alt="Masar logo" />
         </Link>
         <NavItems />
-        <Search />
-        <Account />
       </div>
     </header>
 
@@ -20,3 +17,6 @@ function Header() {
 }
 
 export default Header;
+
+
+// <div className="container-md justify-content-md-center justify-content-lg-between align-items-baseline align-items-md-center">

@@ -5,7 +5,7 @@ import { socialData, serviesData, othersData } from './LinksData';
 function SocialLinks() {
 
     return (
-        <div>
+        <div className="col-9 col-sm-5 col-md-4 col-lg-3">
             <Link to="/">
                 <h6>تواصل معنا</h6>
             </Link>
@@ -25,7 +25,7 @@ function SocialLinks() {
 
 function ServiesLinks() {
     return (
-        <ul className='flex-column'>
+        <ul className='d-none d-lg-block col-5 col-lg-3'>
             {serviesData.map((service, index) => (
                 <li key={index} className='footer-links'>
                     <a href={service.link} className='nav-link p-1' aria-current="page" >
@@ -38,7 +38,7 @@ function ServiesLinks() {
 
 function GeneralLinks() {
     return (
-        <ul className='flex-column'>
+        <ul className='col-9 col-sm-5 col-md-4 col-lg-3'>
             {othersData.map((other, index) => (
                 <li key={index} className='footer-links'>
                     <a href={other.link} className='nav-link p-1' aria-current="page" >

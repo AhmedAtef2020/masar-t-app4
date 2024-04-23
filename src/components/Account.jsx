@@ -3,13 +3,13 @@ import { faBell, faUser, faCartShopping } from "@fortawesome/free-solid-svg-icon
 
 export default function Account() {
     return (
-        <>
-            <div className="user-icon">
-                <FontAwesomeIcon icon={faBell} className="text-white bg-light-blue hidden" />
-                <FontAwesomeIcon icon={faCartShopping} className="text-white bg-light-blue" />
-                <FontAwesomeIcon icon={faUser} className="text-white bg-light-orange" />
-            </div>
-        </>
+
+        <div className="user-icon d-flex flex-nowrap justify-content-center">
+            <FontAwesomeIcon icon={faBell} className="text-white bg-light-blue d-none" />
+            <FontAwesomeIcon icon={faCartShopping} className="text-white bg-light-blue" />
+            <FontAwesomeIcon icon={faUser} className="text-white bg-light-orange" />
+        </div>
+
     )
 };
 

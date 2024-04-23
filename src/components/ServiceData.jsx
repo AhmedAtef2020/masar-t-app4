@@ -78,7 +78,7 @@ const ServiceData = [
         btnLink: "servShows",
         imgSrc: "./images/servShows-img.jpg",
         imgAlt: "Shows Services",
-        icon: "./images/ico-shows.png",
+        icon: "./images/ico-Shows.png",
     },
     {
         title: "البروفايل",

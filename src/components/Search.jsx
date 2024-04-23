@@ -6,10 +6,10 @@ export default function Search() {
 
     return (
         <form action={doSearch}
-            className="d-flex" role="search">
+            className="d-none d-lg-block mx-3 w-100" role="search">
             <input
                 name="query"
-                className="form-control-sm border-0"
+                className="form-control-sm border-0 w-100"
                 type="search"
                 placeholder="بحث"
                 aria-label="Search" />
