@@ -110,13 +110,22 @@ address {
 }
 
 .header-nav {
-    padding: 30px 10px;
+    padding: 25px 10px;
     border-bottom: 2px solid transparent;
+    min-width: 100px;
 }
 
 .header-nav:hover {
     background-color: white;
     border-bottom: 2px solid var(--color-dark-orange);
+}
+
+@media (max-width: 768px) {
+    .header-nav {
+        padding: 7px 10px;
+        border-bottom: 2px solid transparent;
+        min-width: 100px;
+    }
 }
 
 .user-icon>svg {
@@ -132,7 +141,9 @@ address {
 
 
 .logo-footer {
-    max-height: 100px;
+    /* height: 20%; */
+    width: 120px;
+    /* max-height: 100px; */
 }
 
 .social-icons svg {
@@ -196,8 +207,20 @@ footer ul {
     text-align: justify;
 }
 
-.carousel--data button {
-    width: 100%;
+
+@media (max-width:991px) {
+    .carousel--data {
+        left: 50%;
+    }
+
+    .carousel--data h5 {
+        font-size: 1em;
+    }
+
+    .carousel--data p {
+        font-size: 0.8em;
+
+    }
 }
 
 /* Services Styles */
@@ -233,4 +256,8 @@ footer ul {
 
 .book-container:hover .book-title {
     opacity: 1;
+}
+
+.transation {
+    transition: 0.3s ease-in-out;
 }
