@@ -3,6 +3,7 @@ import ScrollToTop from "./helpers/ScrollToTop";
 import Layout from "./pages/Layout";
 import Home from "./pages/home";
 import Services from "./pages/services"
+import AboutUs from "./pages/aboutUs"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
-          <Route path="sevices" element={<Services />} />
+          <Route path="services" element={<Services />} />
+          <Route path="aboutUs" element={<AboutUs />} />
         </Route>
       </Routes>
     </BrowserRouter>

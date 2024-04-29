@@ -1,24 +1,33 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faX, faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons";
 import Search from "../components/Search"
 import Account from "../components/Account";
+import { ServiceData } from "./ServiceData"
 
 
 const navPages = [{
     pageName: "خدماتنا",
-    pageLink: "/sevices",
+    pageLink: "/services",
+    pageNameEn: "services",
+    addClass: "servHBtn",
 },
 {
     pageName: "مكتبة مسار",
     pageLink: "/masar-library",
+    pageNameEn: "library",
+    addClass: "",
 }, {
     pageName: "من أعمالنا",
     pageLink: "/our-profile",
+    pageNameEn: "profile",
+    addClass: "",
 }, {
     pageName: "عن مسار",
-    pageLink: "/about-us",
+    pageLink: "/aboutUs",
+    pageNameEn: "about",
+    addClass: "",
 },];
 
 export default function NavItems() {
@@ -27,7 +36,6 @@ export default function NavItems() {
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
     };
-    // <div className="aling-self-end flex-row-reverse align-items-baseline pb-3 pb-md-0 pe-2 pe-sm-1">
 
     return (
         <div className="col navbar navbar-expand-md pb-3 pb-md-0 pt-md-0 justify-content-end">
@@ -45,12 +53,23 @@ export default function NavItems() {
                 }
             </button>
             <div className={`collapse navbar-collapse justify-content-between ${isNavOpen ? 'show' : ''}`} id="collapsibleNavbar">
-                <div className="d-flex flex-column flex-md-row align-items-center">
+                <div className="d-flex flex-column flex-md-row align-items-center position-relative">
                     {navPages.map((page, index) => (
-                        <Link key={index} to={page.pageLink} className="header-nav nav-link text-center w-75 h-100">
+                        <Link key={index} to={page.pageLink}
+                            className={`header-nav nav-link text-center ${page.addClass}`}>
                             {page.pageName}
+                            <ul id="servDropdown" className="flex-wrap position-absolute bg-light-gray border border-white rounded p-2 col-12 list-unstyled shadow">
+                                {ServiceData.map((data, index) => (
+                                    <li className="col-12 col-md-4">
+                                        <Link key={index} to={data.btnLink} className="dropdown-item px-1 py-2">
+                                            {data.title}
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
                         </Link>
                     ))}
+
                 </div>
                 <Search />
                 <Account />
@@ -58,25 +77,4 @@ export default function NavItems() {
         </div>
     );
 }
-
-
-// export default function NavItems() {
-//     return (
-//         <div className="d-flex aling-self-end flex-row-reverse align-items-baseline pb-3 pe-2 pe-sm-1">
-//             <button className="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-//                 <span className="navbar-toggler-icon">
-//                 </span>
-//             </button>
-//             <div className="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-//                 {navPages.map((page, index) => (
-//                     <Link key={index} to={page.pageLink} className="header-nav nav-link">
-//                         {page.pageName}
-//                     </Link>
-//                 ))}
-//                 <Search />
-//                 <Account />
-//             </div>
-//         </div>
-//     )
-// };
 

@@ -61,6 +61,7 @@ export default function BooksSlider() {
             {
                 breakpoint: 480,
                 settings: {
+                    infinite: false,
                     autoplay: false,
                     nextArrow: null,
                     prevArrow: null,
@@ -80,10 +81,10 @@ export default function BooksSlider() {
                             to={book.link}>
                             <img key={index}
                                 src={book.img}
-                                className="m-auto w-50 w-md-75 d-block rounded-2"
+                                className="m-auto d-block rounded-2"
                                 alt={book.imgAlt}
                             />
-                            <div className="book-title w-75 m-auto py-1 px-2">
+                            <div className="book-title m-auto py-1 px-2">
                                 <p>{book.title}</p>
                             </div>
                         </Link>
