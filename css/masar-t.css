@@ -61,18 +61,18 @@ h3 {
 
 input::placeholder {
     font-family: "Loew Next Arabic", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.85em;
 }
 
 .copy-rights {
     font-family: "Loew Next Arabic", sans-serif;
-    font-size: 0.7em;
+    font-size: 0.8em;
     border-top: 0.5px solid var(--color-light-blue);
 }
 
 address {
     font-family: "Loew Next Arabic", sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
     line-height: 1.6;
     border-top: 0.5px solid var(--color-light-blue);
 }
@@ -110,7 +110,7 @@ address {
 }
 
 .header-nav {
-    padding: 25px 10px;
+    padding: 28px 10px;
     border-bottom: 2px solid transparent;
     min-width: 100px;
 }
@@ -210,15 +210,15 @@ footer ul {
 
 @media (max-width:991px) {
     .carousel--data {
-        left: 50%;
+        left: 40%;
     }
 
     .carousel--data h5 {
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .carousel--data p {
-        font-size: 0.8em;
+        font-size: 0.9em;
 
     }
 }
@@ -243,6 +243,7 @@ footer ul {
     bottom: 30px;
     height: 25px;
     font-size: 0.9em;
+    width: 75%;
     opacity: 0;
     transition: 0.5s;
 }
@@ -254,10 +255,66 @@ footer ul {
     overflow: clip;
 }
 
+.book-container img {
+    width: 75%;
+}
+
 .book-container:hover .book-title {
     opacity: 1;
 }
 
+@media (max-width:576px) {
+    .book-container img {
+        width: 50%;
+    }
+
+    .book-title {
+        width: 50%;
+    }
+}
+
 .transation {
     transition: 0.3s ease-in-out;
+}
+
+/* User and Admin Icons */
+.user-bell:hover,
+.user-cart:hover,
+.user-account:hover {
+    background-color: var(--color-dark-gray);
+    cursor: pointer;
+}
+
+/* Dropdown menus */
+.dropdown-item {
+    font-size: 0.8em;
+}
+
+
+#servDropdown {
+    /* position: absolute; */
+    top: 79px;
+    right: 0;
+    /* background: var(--color-light-gray); */
+    /* border: 1px solid white; */
+    /* border-radius: 4px; */
+    /* padding: 8px 20px; */
+    z-index: 2;
+    display: none;
+    text-align: start;
+}
+
+#servDropdown li>a {
+    border-radius: 4px;
+    width: 95%;
+}
+
+#servDropdown li>a:hover {
+    background-color: white;
+}
+
+@media (min-width:576px) {
+    .servHBtn:hover #servDropdown {
+        display: flex;
+    }
 }
