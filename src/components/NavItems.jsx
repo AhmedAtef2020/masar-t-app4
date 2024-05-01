@@ -20,7 +20,7 @@ const navPages = [{
     addClass: "",
 }, {
     pageName: "من أعمالنا",
-    pageLink: "/our-profile",
+    pageLink: "/profile",
     pageNameEn: "profile",
     addClass: "",
 }, {

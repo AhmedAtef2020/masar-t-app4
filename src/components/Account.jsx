@@ -4,7 +4,7 @@ import { faBell, faUser, faCartShopping } from "@fortawesome/free-solid-svg-icon
 export default function Account() {
     return (
 
-        <div className="user-icon d-flex flex-nowrap justify-content-center dropdown">
+        <div className="user-icon d-flex flex-nowrap justify-content-center dropdown pt-2 pt-sm-0">
             <FontAwesomeIcon icon={faBell} className="user-bell text-white bg-light-blue d-none" />
             <FontAwesomeIcon icon={faCartShopping} className="user-cart text-white bg-light-blue" />
             <FontAwesomeIcon type='button' icon={faUser} className="user-account text-white bg-light-orange dropdown-toggle" id="userDropdown" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" />
@@ -20,4 +20,5 @@ export default function Account() {
 
     )
 };
+
 

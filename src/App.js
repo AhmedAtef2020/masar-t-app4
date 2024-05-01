@@ -4,6 +4,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/home";
 import Services from "./pages/services"
 import AboutUs from "./pages/aboutUs"
+import Profile from "./pages/profile"
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
+          <Route path="" element={<Home />} />
           <Route path="services" element={<Services />} />
           <Route path="aboutUs" element={<AboutUs />} />
+          <Route path="profile" element={<Profile />} />
         </Route>
       </Routes>
     </BrowserRouter>

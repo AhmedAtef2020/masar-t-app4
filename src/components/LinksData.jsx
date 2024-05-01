@@ -46,7 +46,7 @@ const serviesData = [{
 
 const othersData = [{
     title: "عن مسار",
-    link: "#"
+    link: "aboutUs"
 },
 {
     title: "شروط الخدمة",

@@ -5,6 +5,7 @@
     --color-dark-blue-80: rgba(49, 129, 153, 0.8);
     --color-dark-blue: #318199;
     --color-light-blue: #50C2DD;
+    --color-light-blue-10: #50c3dd1a;
     --color-dark-orange: #EB8823;
     --color-light-orange: #FFC04F;
     --color-dark-gray: #bbbdbf;
@@ -30,12 +31,24 @@ h3 {
     font-family: "Loew Next Arabic extraBold", sans-serif;
 }
 
+.c-darkOrange {
+    color: var(--color-dark-orange);
+}
+
+.c-darkBlue {
+    color: var(--color-dark-blue);
+}
+
 .bg-dark-blue {
     background-color: var(--color-dark-blue);
 }
 
 .bg-light-blue {
     background-color: var(--color-light-blue);
+}
+
+.bg-light-blue-10 {
+    background-color: var(--color-light-blue-10);
 }
 
 .bg-dark-gray {
@@ -318,3 +331,11 @@ footer ul {
         display: flex;
     }
 }
+
+.list-group {
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+/* About Page */
+/* .aboutPage .about-img {} */
