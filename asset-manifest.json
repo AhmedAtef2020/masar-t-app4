@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/masar-t-app4/static/js/main.5030795d.js",
+    "main.js": "/masar-t-app4/static/js/main.12917ac9.js",
     "static/js/453.d8b6fea1.chunk.js": "/masar-t-app4/static/js/453.d8b6fea1.chunk.js",
     "index.html": "/masar-t-app4/index.html",
-    "main.5030795d.js.map": "/masar-t-app4/static/js/main.5030795d.js.map",
+    "main.12917ac9.js.map": "/masar-t-app4/static/js/main.12917ac9.js.map",
     "453.d8b6fea1.chunk.js.map": "/masar-t-app4/static/js/453.d8b6fea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.5030795d.js"
+    "static/js/main.12917ac9.js"
   ]
 }
