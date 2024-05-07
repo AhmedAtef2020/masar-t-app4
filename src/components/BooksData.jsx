@@ -10,7 +10,7 @@ const BooksData = [
         avilabile: false,
         author: "الدكتور وليد خليفة",
         pubYear: "2020",
-        caregory: "التقنية والكمبيوتر",
+        bookCategory: "التقنية والكمبيوتر",
         pages: "220",
         link: "/",
     },
@@ -25,7 +25,7 @@ const BooksData = [
         avilabile: false,
         author: "Prof. Name Name",
         pubYear: "2020",
-        caregory: "الشخصيات",
+        bookCategory: "التراجم والسير",
         pages: "220",
         link: "/",
     },
@@ -40,7 +40,7 @@ const BooksData = [
         avilabile: true,
         author: "Edury",
         pubYear: "2020",
-        caregory: "المطبخ",
+        bookCategory: "الطبخ",
         pages: "220",
         link: "/",
     },
@@ -55,7 +55,7 @@ const BooksData = [
         avilabile: false,
         author: "الأستاذ الفالاني",
         pubYear: "2020",
-        caregory: "المدرسة والدراسة",
+        bookCategory: "التربية والتعليم",
         pages: "220",
         link: "/",
     },
@@ -70,7 +70,7 @@ const BooksData = [
         avilabile: false,
         author: "الدكتور فلاني",
         pubYear: "2020",
-        caregory: "العلوم الإسلامية",
+        bookCategory: "الإسلامية والتراثية",
         pages: "220",
         link: "/",
     },
@@ -85,7 +85,7 @@ const BooksData = [
         avilabile: true,
         author: "الشيخ محمد عبدالله",
         pubYear: "2020",
-        caregory: "التراجم",
+        bookCategory: "التراجم والسير",
         pages: "220",
         link: "/",
     },
@@ -100,12 +100,15 @@ const BooksData = [
         avilabile: false,
         author: "Paul Tomko",
         pubYear: "2020",
-        caregory: "تطوير الذات",
+        bookCategory: "تطوير الذات",
         pages: "220",
         link: "/",
     },
 ];
 
+const booksCategories = ["الإسلامية والتراثية", "الإدارة والأعمال", "الأطفال", "التربية والتعليم", "القصة والرواية", "التراجم والسير", "قواميس وموسوعات", "القانون", "كتب الهندسة", "العمارة والتصميم", "العلوم والرياضيات", "التقنية والكمبيوتر", "الصحة العامة والتغذية", "الكتب الطبية", "تعلم اللغات", "الكتب المدرسية", "الأدب والشعر", "تطوير الذات", "الاجتماعية والسياسية", "التاريخ والجغرافيا", "العناية بالطفل", "الطبخ", "الهوايات والأشغال اليدوية", "المجلات", "الطبيعة والزراعة", "السفر والخرائط", "الكتب الأجنبية"]
+// const booksCategories = [...new Set(BooksData.map(item => item.bookCategory))];
 
 
-export { BooksData };
+
+export { BooksData, booksCategories };

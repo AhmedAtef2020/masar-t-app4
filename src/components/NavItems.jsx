@@ -15,7 +15,7 @@ const navPages = [{
 },
 {
     pageName: "مكتبة مسار",
-    pageLink: "/masar-library",
+    pageLink: "/masarLibrary",
     pageNameEn: "library",
     addClass: "",
 }, {

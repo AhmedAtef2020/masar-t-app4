@@ -14,9 +14,9 @@ function SocialLinks() {
             </address>
             <div className="social-icons">
                 {socialData.map((social, index) => (
-                    <a key={index} href={social.link} target='blank'>
+                    <Link key={index} to={social.link} target='blank'>
                         <FontAwesomeIcon icon={social.icon} />
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>
@@ -28,8 +28,8 @@ function ServiesLinks() {
         <ul className='d-none d-lg-block col-5 col-lg-3'>
             {serviesData.map((service, index) => (
                 <li key={index} className='footer-links'>
-                    <a href={service.link} className='nav-link p-1' aria-current="page" >
-                        {service.title}</a>
+                    <Link to={service.link} className='nav-link p-1' aria-current="page" >
+                        {service.title}</Link>
                 </li>
             ))}
         </ul>
@@ -41,8 +41,8 @@ function GeneralLinks() {
         <ul className='col-9 col-sm-5 col-md-4 col-lg-3'>
             {othersData.map((other, index) => (
                 <li key={index} className='footer-links'>
-                    <a href={other.link} className='nav-link p-1' aria-current="page" >
-                        {other.title}</a>
+                    <Link to={other.link} className='nav-link p-1' aria-current="page" >
+                        {other.title}</Link>
                 </li>
             ))}
         </ul>

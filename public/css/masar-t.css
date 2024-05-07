@@ -250,15 +250,33 @@ footer ul {
 
 /* Books */
 
+.book-container {
+    max-width: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.book-container img,
+.book-title {
+
+    width: 150px;
+}
+
+
 .book-title {
     background-color: var(--color-light-gray);
-    position: relative;
-    bottom: 30px;
+    position: absolute;
+    bottom: 5px;
     height: 25px;
-    font-size: 0.9em;
-    width: 75%;
+    font-size: 0.8em;
     opacity: 0;
+    left: 50%;
+    transform: translateX(-50%);
     transition: 0.5s;
+}
+
+.book-container:hover .book-title {
+    opacity: 1;
 }
 
 .book-title>p {
@@ -268,22 +286,12 @@ footer ul {
     overflow: clip;
 }
 
-.book-container img {
-    width: 75%;
-}
-
-.book-container:hover .book-title {
-    opacity: 1;
-}
 
 @media (max-width:576px) {
-    .book-container img {
+    .book-container {
         width: 50%;
     }
 
-    .book-title {
-        width: 50%;
-    }
 }
 
 .transation {
@@ -305,14 +313,9 @@ footer ul {
 
 
 #servDropdown {
-    /* position: absolute; */
     top: 79px;
     right: 0;
-    /* background: var(--color-light-gray); */
-    /* border: 1px solid white; */
-    /* border-radius: 4px; */
-    /* padding: 8px 20px; */
-    z-index: 2;
+    z-index: 5;
     display: none;
     text-align: start;
 }

@@ -40,13 +40,13 @@ const serviesData = [{
 },
 {
     title: "مكتبة مسار",
-    link: "#"
+    link: "/masarLibrary"
 },
 ];
 
 const othersData = [{
     title: "عن مسار",
-    link: "aboutUs"
+    link: "/aboutUs"
 },
 {
     title: "شروط الخدمة",

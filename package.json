@@ -1,7 +1,7 @@
 {
   "homepage": "http://ahmedatef2020.github.io/masar-t-app4",
   "name": "masar-t-app4",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",

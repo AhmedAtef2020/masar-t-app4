@@ -76,7 +76,7 @@ export default function BooksSlider() {
         <div className="slider-container container">
             <Slider {...settings}>
                 {BooksData.map((book, index) => (
-                    <div className="book-container text-center">
+                    <div className="book-container text-center ">
                         <Link className="text-decoration-none text-black"
                             to={book.link}>
                             <img key={index}
@@ -84,7 +84,7 @@ export default function BooksSlider() {
                                 className="m-auto d-block rounded-2"
                                 alt={book.imgAlt}
                             />
-                            <div className="book-title m-auto py-1 px-2">
+                            <div className="book-title m-auto pt-1">
                                 <p>{book.title}</p>
                             </div>
                         </Link>
