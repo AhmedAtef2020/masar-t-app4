@@ -7,6 +7,7 @@ const ServiceData = [
         imgSrc: "./images/servBooks-img.jpg",
         imgAlt: "Books services",
         icon: "./images/ico-books.png",
+        status: "active",
     },
     {
         title: "المواقع والتطبيقات",
@@ -16,6 +17,7 @@ const ServiceData = [
         imgSrc: "./images/servWeb-img.jpg",
         imgAlt: "Web Applications services",
         icon: "./images/ico-web.png",
+        status: "active",
     },
     {
         title: "سوشيال ميديا",
@@ -25,6 +27,7 @@ const ServiceData = [
         imgSrc: "./images/servSocial-img.jpg",
         imgAlt: "Social media services",
         icon: "./images/ico-social.png",
+        status: "active",
     },
     {
         title: "الهوية البصرية",
@@ -34,6 +37,7 @@ const ServiceData = [
         imgSrc: "./images/servIdentity-img.jpg",
         imgAlt: "Identity Services",
         icon: "./images/ico-identity.png",
+        status: "disabled opacity-25",
     },
     {
         title: "باكج دعائي",
@@ -43,6 +47,7 @@ const ServiceData = [
         imgSrc: "./images/servAdv-img.jpg",
         imgAlt: "Advertise Services",
         icon: "./images/ico-adv.png",
+        status: "disabled opacity-25",
     },
     {
         title: "التغليف والعلب",
@@ -52,6 +57,7 @@ const ServiceData = [
         imgSrc: "./images/servPackage-img.jpg",
         imgAlt: "Packaging Services",
         icon: "./images/ico-package.png",
+        status: "disabled opacity-25",
     },
     {
         title: "لافتات دعائية",
@@ -61,6 +67,7 @@ const ServiceData = [
         imgSrc: "./images/servBanner-img.jpg",
         imgAlt: "Banners Services",
         icon: "./images/ico-banners.png",
+        status: "disabled opacity-25",
     },
     {
         title: "التصوير",
@@ -70,6 +77,7 @@ const ServiceData = [
         imgSrc: "./images/servPhoto-img.jpg",
         imgAlt: "Photography Services",
         icon: "./images/ico-photo.png",
+        status: "disabled opacity-25",
     },
     {
         title: "تنظيم معارض",
@@ -79,6 +87,7 @@ const ServiceData = [
         imgSrc: "./images/servShows-img.jpg",
         imgAlt: "Shows Services",
         icon: "./images/ico-Shows.png",
+        status: "disabled opacity-25",
     },
     {
         title: "البروفايل",
@@ -88,6 +97,7 @@ const ServiceData = [
         imgSrc: "./images/servProfile-img.jpg",
         imgAlt: "Profile Services",
         icon: "./images/ico-profile.png",
+        status: "disabled opacity-25",
     },
     {
         title: "مكتبة مسار",
@@ -97,6 +107,7 @@ const ServiceData = [
         imgSrc: "./images/servLib-img.jpg",
         imgAlt: "Masar Library",
         icon: "./images/ico-lib.png",
+        status: "active",
     },
 ]
 

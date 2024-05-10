@@ -55,13 +55,16 @@ export default function NavItems() {
             <div className={`collapse navbar-collapse justify-content-between ${isNavOpen ? 'show' : ''}`} id="collapsibleNavbar">
                 <div className="d-flex flex-column flex-md-row align-items-center position-relative">
                     {navPages.map((page, index) => (
-                        <Link key={index} to={page.pageLink}
+                        <Link
+                            key={index} to={page.pageLink}
                             className={`header-nav nav-link text-center ${page.addClass}`}>
                             {page.pageName}
                             <ul id="servDropdown" className="flex-wrap position-absolute bg-light-gray border border-white rounded p-2 col-12 list-unstyled shadow">
                                 {ServiceData.map((data, index) => (
-                                    <li className="col-12 col-md-4">
-                                        <Link key={index} to={data.btnLink} className="dropdown-item px-1 py-2">
+                                    <li key={index} className="col-12 col-md-4" >
+                                        <Link
+                                            to={data.status === "active" && data.btnLink}
+                                            className={`dropdown-item px-1 py-2 ${data.status}`}>
                                             {data.title}
                                         </Link>
                                     </li>

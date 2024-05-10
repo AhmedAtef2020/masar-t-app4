@@ -12,7 +12,12 @@ export default function ServiceComp() {
                 </div>
                 {ServiceData.map((service, index) => (
                     <div key={index} className="col bg-white rounded px-4 py-2 text-black text-center w-auto">
-                        <Link className="text-decoration-none text-black" to={service.btnLink}><img className="serv-ico p-1 mt-1 mb-2" src={service.icon} alt={service.imgAlt} />
+                        <Link
+                            className={`text-decoration-none text-black ${service.status}`}
+                            to={service.status === "active" && service.btnLink} >
+
+                            <img className="serv-ico p-1 mt-1 mb-2" src={service.icon} alt={service.imgAlt} />
+
                             <h6>{service.title}</h6>
                         </Link>
                     </div>

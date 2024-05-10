@@ -116,6 +116,10 @@ address {
     background-color: var(--color-dark-blue);
 }
 
+.sm-ico {
+    height: 35px;
+}
+
 /* Header styles */
 
 .logo-header {
@@ -340,5 +344,27 @@ footer ul {
     cursor: pointer;
 }
 
-/* About Page */
-/* .aboutPage .about-img {} */
+.list-group-item.active {
+    background-color: var(--color-light-orange);
+    border-color: var(--color-light-orange);
+}
+
+.slide-menu-container {
+    position: fixed;
+    top: 128px;
+    right: -220px;
+    /* Initially hide the menu off-screen */
+    width: 250px;
+    height: 100%;
+    transition: left 0.3s ease;
+}
+
+.slide-menu-container.open {
+    right: -20px;
+    /* Slide the menu into view when open */
+}
+
+.menu-toggle {
+    cursor: pointer;
+    background-color: transparent;
+}

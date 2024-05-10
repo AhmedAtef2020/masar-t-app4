@@ -24,19 +24,19 @@ const socialData = [{
 
 const serviesData = [{
     title: "خدمات الكتب",
-    link: "#"
+    link: "/services/servBooks"
 },
 {
     title: "المواقع والتطبيقات",
-    link: "#"
+    link: "/services/servWeb"
 },
 {
     title: "الهوية البصرية",
-    link: "#"
+    link: "/services/servIdentity"
 },
 {
     title: "باكج الدعائي",
-    link: "#"
+    link: "/services/servAdv"
 },
 {
     title: "مكتبة مسار",
